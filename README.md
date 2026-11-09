@@ -5,10 +5,12 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Third-Party-Integration-Framework/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Third-Party-Integration-Framework?style=social&color=white" alt="GitHub stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Third-Party-Integration-Framework/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Third-Party-Integration-Framework?style=social&color=white" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Third-Party-Integration-Framework/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg" alt="License: CC0 1.0" /></a>
-  <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 > 🚀 **The definitive curated directory and ecosystem comparison of Third-Party Integration Frameworks, Enterprise iPaaS (Integration Platform as a Service), API Connectors, ETL/ELT pipelines, and Open-Source Workflow Automation Engines.**  
@@ -26,6 +28,8 @@
 - [🔓 Open-Source Integration Frameworks & Engines](#-open-source-integration-frameworks--engines)
 - [⚖️ Feature Matrix & Architecture Comparison](#️-feature-matrix--architecture-comparison)
 - [💡 How to Choose an Integration Framework](#-how-to-choose-an-integration-framework)
+- [📈 Star History](#-star-history)
+- [💖 Support](#-support)
 - [🤝 Contributing](#-contributing)
 - [📜 License](#-license)
 
@@ -175,6 +179,21 @@ What is your primary architectural requirement?
     ├── API-to-Warehouse ELT Pipelines       ──► Airbyte
     └── Real-time Flow & Edge IoT Processing ──► Apache NiFi or Node-RED
 ```
+
+---
+
+##  Star History
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Third-Party-Integration-Framework&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Third-Party-Integration-Framework&type=date&legend=top-left)
+
+---
+
+## 💖 Support
+
+If you find this repository valuable for your architectural research, software stack decisions, or developer workflow:
+
+- 🌟 **Star the repository** to boost visibility and help other engineers discover it.
+- 🍴 **Fork and share** with teammates, tech communities, and colleagues building integrations.
+- ☕ **Support the maintainer**: You can sponsor this project or buy a coffee via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
 
 ---
 
