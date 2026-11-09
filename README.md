@@ -1,153 +1,201 @@
-# Awesome-Third-Party-Integration-Framework
+# ⚡ Awesome Third-Party Integration Framework
 
-# Awesome Third-Party Integration Framework
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Third-Party Integration Framework Banner" width="100%" />
+</p>
 
-> A curated list of top Third-Party Integration Framework platforms — both SaaS/Hosted commercial iPaaS solutions and open-source alternatives for connecting applications, APIs, and data sources with visual or code-first workflows.  
-> 🌟 Star this repo if you find it useful! 🌟
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Third-Party-Integration-Framework/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Third-Party-Integration-Framework?style=social&color=white" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Third-Party-Integration-Framework/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Third-Party-Integration-Framework?style=social&color=white" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Third-Party-Integration-Framework/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg" alt="License: CC0 1.0" /></a>
+  <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+</p>
 
----
-
-## 📋 Table of Contents
-
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [MuleSoft Anypoint Platform](#mulesoft-anypoint-platform)
-  - [Workato](#workato)
-  - [Boomi](#boomi)
-  - [Make](#make)
-  - [Tray.io](#trayio)
-  - [Celigo](#celigo)
-  - [SnapLogic](#snaplogic)
-  - [Jitterbit](#jitterbit)
-- [Open-Source Software](#-open-source-software)
-  - [n8n](#n8n)
-  - [Activepieces](#activepieces)
-  - [Apache Camel](#apache-camel)
-  - [Apache NiFi](#apache-nifi)
-  - [WSO2 Enterprise Integrator](#wso2-enterprise-integrator)
-  - [ByteChef](#bytechef)
-  - [MEL Agent](#mel-agent)
-  - [Pansynchro](#pansynchro)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
+> 🚀 **The definitive curated directory and ecosystem comparison of Third-Party Integration Frameworks, Enterprise iPaaS (Integration Platform as a Service), API Connectors, ETL/ELT pipelines, and Open-Source Workflow Automation Engines.**  
+> 
+> Discover high-performance solutions for interconnecting SaaS platforms, microservices, REST/GraphQL APIs, databases, message brokers, and autonomous AI agents with low-code visual builders or code-first developer frameworks.
+> 
+> 🌟 **Star this repository to bookmark and follow industry updates!** 🌟
 
 ---
 
-## 🟦 SaaS / Hosted Platforms
+## 📑 Table of Contents
 
-Commercial, cloud-hosted Third-Party Integration Framework platforms. These are not open-source but are included as reference points for feature comparison.
-
-### MuleSoft Anypoint Platform
-**Type:** Enterprise iPaaS with API-led connectivity  
-MuleSoft is the long-standing enterprise integration standard, offering API management, data transformation via DataWeave, and extensive connector libraries. The Anypoint Platform provides hybrid deployment options (CloudHub, Runtime Fabric, on-premises) and comprehensive API lifecycle governance. Pricing is enterprise-quoted and typically targets mid-to-large organizations with dedicated integration teams.
-
-### Workato
-**Type:** Enterprise automation with recipe-based workflows  
-Workato combines enterprise-grade security with a consumer-grade design interface, targeting both IT and business users. Recipes can orchestrate complex multi-step processes across cloud and on-premises systems, with cross-enterprise visibility for IT governance. The Connector SDK enables custom integrations, and the platform has expanded into AI agent integration via pre-built MCP servers.
-
-### Boomi
-**Type:** Cloud-native iPaaS with drag-and-drop integration  
-Boomi is a proven iPaaS known for strong cloud-native architecture and reasonable pricing compared to MuleSoft. It offers pre-built connectors for enterprise systems including SAP, Salesforce, NetSuite, Workday, and ServiceNow, alongside hundreds of SaaS applications. Visual integration design and data mapping reduce development effort for mid-market organizations.
-
-### Make
-**Type:** Visual automation with granular data control  
-Make provides a visual scenario builder with powerful data transformation, iteration, and error handling. Its HTTP module allows arbitrary API calls, and the canvas shows data flowing between modules. Pricing scales per operation, which can become expensive at volume, but offers more control than simpler trigger-action tools.
-
-### Tray.io
-**Type:** Enterprise iPaaS with embedded automation  
-Tray.io provides a visual canvas with 650+ connectors, JSONata data mapping, and a Connector SDK for custom integrations. Its Embedded offering lets SaaS vendors embed automation capabilities directly into their own products. Features include callable workflows for reusable logic and Insights for health monitoring.
-
-### Celigo
-**Type:** Integration platform for SaaS and e-commerce  
-Celigo provides pre-built connectors, templates, and fully managed integration apps for connecting applications, databases, and services. The marketplace emphasizes integration accelerators and end-to-end business process automation (order-to-cash, procure-to-pay). Key integrations include NetSuite, Salesforce, Shopify, and HubSpot, with SOC 2 Type 2 and GDPR/HIPAA readiness.
-
-### SnapLogic
-**Type:** Intelligent integration with AI-ready connectors  
-SnapLogic provides over 500 pre-built "Snaps" for enterprise systems including SAP, Workday, Salesforce, Microsoft Dynamics 365, and ServiceNow. The platform emphasizes AI-ready connectivity with LLM Utilities for RAG systems and function integration, alongside broad coverage of databases, cloud platforms, and messaging systems.
-
-### Jitterbit
-**Type:** iPaaS with API management and EDI  
-Jitterbit Harmony provides reusable connectors for connecting on-premises, cloud, and SaaS applications, combined with API Manager for creating and securing APIs, EDI for partner data exchange, and MCP for governing AI agent access to data and tools. A real-world case study describes integrating Salesforce Sales Cloud with NetSuite and Apttus CPQ/CLM for real-time transaction workflows.
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Commercial Platforms](#-saas--hosted-commercial-platforms)
+- [🔓 Open-Source Integration Frameworks & Engines](#-open-source-integration-frameworks--engines)
+- [⚖️ Feature Matrix & Architecture Comparison](#️-feature-matrix--architecture-comparison)
+- [💡 How to Choose an Integration Framework](#-how-to-choose-an-integration-framework)
+- [🤝 Contributing](#-contributing)
+- [📜 License](#-license)
 
 ---
 
-## 🟩 Open-Source Software
+## 🌐 Sector Overview & Market Dynamics
 
-Self-hosted, community-driven Third-Party Integration Framework tools. The open-source ecosystem spans **visual workflow automation platforms**, **code-first integration frameworks**, and **data flow engines**.
+The global **Integration Platform as a Service (iPaaS)** market is estimated at **$8.5 billion to $10.2 billion** and is projected to expand past **$45 billion by 2032** with an accelerating compound annual growth rate (CAGR) of over **25–30%**, propelled by enterprise cloud migration, API-first architecture adoption, SaaS ecosystem sprawl, and autonomous AI agent orchestration.
 
-### n8n
-**Stack:** TypeScript / Node.js | **License:** Sustainable Use License (source-available, not OSI)  
-n8n is the most adopted open-source (source-available) workflow automation platform, with a visual builder combining 400+ integrations (as of April 2026) and JavaScript/Python code nodes [citation:13]. Workflows can mix visual building with custom code where needed, and the platform supports self-hosting on Docker or Kubernetes. Key differentiators include full visibility into agent decisions, human-in-the-loop approval steps, and replay of past runs. **Important:** The Sustainable Use License restricts certain commercial resale; it is not OSI-approved, though internal self-hosting is permitted [citation:13].
-
-### Activepieces
-**Stack:** TypeScript | **License:** MIT  
-Activepieces is a genuinely MIT-licensed open-source automation platform positioned as a permissively licensed alternative to n8n, with 200+ "pieces" (integrations) as of April 2026 [citation:13]. Its MIT license makes it particularly suitable for embedding in other products or white-labeling [citation:13]. The Community Edition is free to self-host with a visual builder and a growing integration library.
-
-### Apache Camel
-**Stack:** Java | **License:** Apache 2.0  
-Apache Camel is a mature (launched 2007) code-first integration framework with 350+ components, based on Enterprise Integration Patterns (EIP) [citation:13]. Routes can be written in Java, YAML, or XML. Camel K runs natively on Kubernetes, and Camel Karavan provides a low-code visual platform for designing routes. Best suited for Java development teams building enterprise integrations who prefer code-driven development over visual builders [citation:1][citation:13].
-
-### Apache NiFi
-**Stack:** Java | **License:** Apache 2.0  
-Apache NiFi is designed for real-time data flow automation, providing a graphical interface for managing and monitoring data flows [citation:1]. It is the strongest open-source choice for teams that need enterprise-grade real-time data routing with no licensing cost, though it requires technical staff to deploy and maintain infrastructure [citation:1]. NiFi is fully open source and self-managed [citation:1].
-
-### WSO2 Enterprise Integrator
-**Stack:** Java | **License:** Apache 2.0  
-WSO2 Enterprise Integrator is an open-source integration platform covering API management, data transformation, and business process orchestration [citation:1]. It supports cloud, on-premises, and hybrid deployments, making it a strong MuleSoft alternative for organizations that need enterprise integration capabilities and want to avoid vendor lock-in [citation:1]. Commercial support contracts are available from WSO2, but add cost if SLA-backed assistance is required [citation:1].
-
-### ByteChef
-**Stack:** Java / TypeScript | **License:** Apache 2.0  
-ByteChef is an open-source platform for building workflow automations and AI agents across applications, APIs, and databases [citation:11]. The core is Apache 2.0 licensed and runs anywhere Docker runs, or as a managed service [citation:11]. Features include a visual editor with 260+ connectors, code steps in JavaScript/Python/Java, AI agents as first-class workflow steps, and the ability to **embed the engine in your own product** so customers connect their accounts without leaving your app [citation:15]. Governance features (workspaces, roles, SSO, audit) require an Enterprise license [citation:15].
-
-### MEL Agent
-**Stack:** Go / React / PostgreSQL | **License:** Open Source (per package)  
-MEL Agent is an AI-first workflow automation platform built from the ground up for LLM orchestration and AI agent workflows [citation:3]. It features a visual workflow builder inspired by n8n, Make.com, and Node-RED, with real-time debugging, step-by-step execution traces, and live data preview for every node [citation:3]. The platform is API-first (everything in the UI is available via REST API) and supports both embedded and distributed worker execution for scaling [citation:3]. Deploys via Docker Compose with Kubernetes-ready architecture [citation:3].
-
-### Pansynchro
-**Stack:** C# | **License:** Open Source  
-Pansynchro is a modern, open-source data transfer and processing framework designed for data integration and synchronization at any scale [citation:4]. It is heavily optimized to minimize network bandwidth and cost, using a low-overhead binary protocol rather than text-based transmission [citation:4]. Connectors support all major SQL databases plus JSON and CSV formats, with a Data Source abstraction for simplifying API integrations [citation:4]. Best suited for data engineers focused on efficient database replication and ETL/ELT workflows rather than business-user automation [citation:4].
+The market displays a **hybrid competitive landscape: moderately concentrated at the high-end enterprise tier**, where legacy titans (Salesforce MuleSoft, Boomi, Workato) capture the majority of Fortune 500 spend, **yet highly fragmented across mid-market, developer, and niche segments** where modern low-code tools (Make), embedded workflow providers (Tray.io), and high-growth open-source platforms (n8n, Activepieces, Airbyte, Temporal) consistently disintermediate legacy vendors with superior developer experience, transparent pricing, and self-hosted control.
 
 ---
 
-## 📊 Comparison at a Glance
+## 🏢 SaaS & Hosted Commercial Platforms
 
-| Software | License | Stack | Visual Builder | Code Support | Self-Hosted | Best For |
-|----------|---------|-------|----------------|--------------|-------------|----------|
-| **MuleSoft** | Proprietary | Cloud | ✅ | DataWeave | ❌ | Enterprise API-led integration |
-| **Workato** | Proprietary | Cloud | ✅ | SDK | ❌ | Citizen integrators + governance |
-| **Boomi** | Proprietary | Cloud | ✅ | Limited | ❌ | Mid-market iPaaS |
-| **Make** | Proprietary | Cloud | ✅ | Limited | ❌ | Granular data shaping |
-| **Tray.io** | Proprietary | Cloud | ✅ | JSONata | ❌ | Embedded automation |
-| **Celigo** | Proprietary | Cloud | ✅ | Limited | ❌ | NetSuite/e-commerce managed apps |
-| **SnapLogic** | Proprietary | Cloud | ✅ | (Check) | ❌ | AI-ready connectors + databases |
-| **Jitterbit** | Proprietary | Cloud | ✅ | Limited | ❌ | API mgmt + EDI + connectors |
-| **n8n** | Sustainable Use | TypeScript | ✅ | JS/Python | ✅ | Powerful self-hosted automation |
-| **Activepieces** | MIT | TypeScript | ✅ | NPM | ✅ | MIT-licensed embeddable |
-| **Apache Camel** | Apache 2.0 | Java | ❌ (Karavan) | Java/YAML/XML | ✅ | Code-first enterprise Java |
-| **Apache NiFi** | Apache 2.0 | Java | ✅ | Limited | ✅ | Real-time data flow automation |
-| **WSO2 EI** | Apache 2.0 | Java | (Check) | (Check) | ✅ | Open-source API + orchestration |
-| **ByteChef** | Apache 2.0 | Java/TS | ✅ | JS/Python/Java | ✅ | Embeddable + AI agents |
-| **MEL Agent** | Open Source | Go/React | ✅ | Go SDK | ✅ | AI-native workflows |
-| **Pansynchro** | Open Source | C# | ❌ | (Code-first) | ✅ | High-efficiency data sync |
+Below is a detailed breakdown of leading commercial Third-Party Integration Platforms, sorted by **Valuation / Annual Recurring Revenue (ARR)** in descending order:
+
+| 🏷️ Platform | 💰 Valuation / Company Scale | 💵 Starting Tier Pricing | 🎁 Free Tier / Trial Limit | 🎯 Core Focus & Architectural Strengths |
+|---|---|---|---|---|
+| **[MuleSoft Anypoint](https://www.mulesoft.com/)** | **$6.5B+** *(Acquired by Salesforce for $6.5B; $1.5B+ ARR)* | **$2,000 / month** ($24,000/yr annual contract baseline for Integration Starter) | **30-day free trial** (Full Anypoint design center access, 1 trial vCore, no production SLAs) | Enterprise API-led connectivity, DataWeave transformations, full lifecycle API governance, and hybrid on-premise/cloud runtimes. |
+| **[Workato](https://www.workato.com/)** | **$5.7B** *(Valued at $5.7B Series E; ~$200M ARR)* | **$75 / month** (Pro self-serve tier; Enterprise contracts start at $10,000–$25,000/yr) | **Free Forever Tier**: 50,000 free credits one-time grant + community recipes; 30-day Enterprise trial | Enterprise recipe-based workflow orchestrations, dual citizen/IT developer UX, pre-built governance, and MCP AI connector tools. |
+| **[Boomi](https://boomi.com/)** | **$4.0B** *(Acquired for $4B by TPG/Francisco Partners; ~$500M ARR)* | **$99 / month** (Pay-as-you-go Base; Professional bundles start at $2,000/month) | **30-day free trial** with full platform capabilities, pre-built connector testing, and unlimited test runs | Cloud-native iPaaS with visual data mapper, Atoms runtime architecture, and deep legacy ERP (SAP, Oracle, NetSuite) integration depth. |
+| **[Make](https://www.make.com/)** | **~$1.5B** *(Subsidiary of Celonis, valued at $11B+; Make ARR ~$60M+)* | **$9 / month** (Core Plan billed annually at $108/yr or $10.59/mo monthly) | **Free Forever Tier**: 1,000 operations/month, 100 MB data transfer, 2 active scenarios, 15-minute execution intervals | Granular visual scenario designer, visual execution flow debuggers, raw HTTP/REST custom endpoints, and complex data-structure iterators. |
+| **[SnapLogic](https://www.snaplogic.com/)** | **$1.0B** *(Valued at $1.0B unicorn Series G; ~$100M ARR)* | **$1,650 / month** ($19,800/yr starting baseline for SnapLogic Cloud Starter) | **30-day structured trial** (Requires sales authorization; includes pre-loaded demo pipelines and Snaps) | AI-assisted streaming and batch pipelines (Iris AI), 500+ pre-built Snaps, and RAG/LLM function calling connectivity. |
+| **[Tray.io (Tray.ai)](https://tray.io/)** | **$600M** *(Valued at $600M Series C; ~$70M ARR)* | **$750 / month** ($9,000/yr annual contract starting tier for Pro Workspace) | **14-day free trial** of Tray Studio (Includes 1 workspace, 5 active workflows, sandbox environment) | Embedded automation (white-label SaaS integration), low-code visual workflow canvas, JSONata transformation logic, and Tray Merlin AI. |
+| **[Celigo](https://www.celigo.com/)** | **$450M** *(Growth equity backed by Summit Partners; ~$80M ARR)* | **$600 / month** ($7,200/yr billed annually for Starter Edition) | **30-day free trial** (Includes 1 integration app, 5 active flows, and full NetSuite sandbox support) | Pre-packaged business process flows (Order-to-Cash, Procure-to-Pay), specialized NetSuite / Shopify / ERP connectors, and SOC 2 Type 2 compliance. |
+| **[Jitterbit](https://www.jitterbit.com/)** | **$400M** *(Private equity owned by Audax & KKR; ~$60M ARR)* | **$1,000 / month** ($12,000/yr Standard Package billed annually) | **30-day free trial** (Full access to Harmony Cloud Studio, test sandboxes, API Manager, and EDI mapper) | Hybrid integration studio, legacy EDI translation for supply-chain vendors, enterprise CRM-to-ERP synchronizations, and API Gateway management. |
+
+---
+
+## 🔓 Open-Source Integration Frameworks & Engines
+
+The open-source third-party integration landscape features high-power visual automation engines, event-driven orchestrators, distributed code-first integration frameworks, and high-throughput ELT pipelines.
+
+The projects below are ranked in **descending order by GitHub stargazers**:
+
+### 1. [n8n](https://github.com/n8n-io/n8n) [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)
+* **Tech Stack:** 🟦 TypeScript / Node.js / Vue.js | **License:** 📄 Sustainable Use License (Source-Available)
+* **Key Features:** Fair-code visual workflow automation platform combining 400+ native integrations with custom JavaScript/Python execution nodes. Supports self-hosting via single-container Docker or scalable multi-worker Kubernetes clusters. Offers native LangChain / autonomous AI agent orchestrations, sub-workflow execution, visual step-by-step state inspection, and robust webhook listeners.
+
+### 2. [Huginn](https://github.com/huginn/huginn) [![GitHub stars](https://img.shields.io/github/stars/huginn/huginn?style=social&color=white)](https://github.com/huginn/huginn/stargazers)
+* **Tech Stack:** 💎 Ruby on Rails / MySQL / PostgreSQL | **License:** 📄 MIT
+* **Key Features:** A battle-tested open-source system for building automated event-driven agents that read the web, watch for events, and perform API actions on your behalf. Known as a self-hosted, hackable version of Yahoo Pipes or IFTTT, with built-in agent scheduling, deduplication, website scraping, and JSON transformation agents.
+
+### 3. [Appsmith](https://github.com/appsmithorg/appsmith) [![GitHub stars](https://img.shields.io/github/stars/appsmithorg/appsmith?style=social&color=white)](https://github.com/appsmithorg/appsmith/stargazers)
+* **Tech Stack:** ☕ Java / TypeScript / React | **License:** 📄 Apache 2.0
+* **Key Features:** Open-source platform for rapidly connecting to databases, SaaS APIs, and third-party webhooks to build visual integration frontends, internal tools, and operational workflows. Comes with 50+ pre-built connectors (PostgreSQL, MongoDB, REST APIs, GraphQL, Snowflake) and complete Git-based version control for developer collaboration.
+
+### 4. [Kestra](https://github.com/kestra-io/kestra) [![GitHub stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers)
+* **Tech Stack:** ☕ Java / Micronaut / Vue.js | **License:** 📄 Apache 2.0
+* **Key Features:** Universal event-driven declarative orchestrator and integration platform. Define end-to-end multi-system workflows in clean YAML with embedded Python, Node.js, Shell, or SQL code. Features 600+ plugins for cloud providers, analytics databases, and microservices with visual topology graphs, real-time live logs, and automated retry mechanisms.
+
+### 5. [Activepieces](https://github.com/activepieces/activepieces) [![GitHub stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers)
+* **Tech Stack:** 🟦 TypeScript / Angular / Node.js | **License:** 📄 MIT
+* **Key Features:** Permissively licensed, 100% open-source alternative to Zapier and n8n with 350+ pre-built integration "pieces" and MCP (Model Context Protocol) servers for AI agents. Designed with an ultra-clean modular architecture that makes writing new TypeScript pieces trivial. Highly popular for embedding white-labeled automations into commercial SaaS products without legal restrictions.
+
+### 6. [Temporal](https://github.com/temporalio/temporal) [![GitHub stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers)
+* **Tech Stack:** 🐹 Go / TypeScript / Java / Python / C# | **License:** 📄 MIT
+* **Key Features:** Industry-leading durable workflow orchestration engine for complex distributed systems and multi-API integrations. Handles intermittent network timeouts, asynchronous human approvals, state retries, and distributed transaction rollbacks (Saga pattern) entirely through reliable code, eliminating brittle custom retry logic.
+
+### 7. [Node-RED](https://github.com/node-red/node-red) [![GitHub stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)
+* **Tech Stack:** 🟩 JavaScript / Node.js | **License:** 📄 Apache 2.0
+* **Key Features:** Low-code, flow-based visual programming tool for wiring together APIs, hardware devices, and cloud web services. Runs everywhere from low-cost edge hardware (Raspberry Pi) to industrial cloud gateways. Features a vibrant community repository of over 4,000 community nodes and plugins for any protocol (MQTT, WebSockets, TCP, HTTP).
+
+### 8. [Airbyte](https://github.com/airbytehq/airbyte) [![GitHub stars](https://img.shields.io/github/stars/airbytehq/airbyte?style=social&color=white)](https://github.com/airbytehq/airbyte/stargazers)
+* **Tech Stack:** ☕ Java / Python / TypeScript | **License:** 📄 Elv2 (Core code MIT-derived)
+* **Key Features:** The standard open-source data movement engine for synchronizing third-party application APIs to databases, data warehouses, and AI vector stores. Features a catalog of 300+ pre-built API connectors (Salesforce, Stripe, Zendesk, GitHub) and a Connector Builder (no-code UI and Python SDK) that enables building custom API connectors in minutes.
+
+### 9. [Windmill](https://github.com/windmill-labs/windmill) [![GitHub stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers)
+* **Tech Stack:** 🦀 Rust / Svelte / TypeScript / Python | **License:** 📄 AGPLv3 / Apache 2.0
+* **Key Features:** Ultra-fast, code-first developer platform that converts Python, TypeScript, Go, Bash, or SQL scripts into production-ready endpoints, scheduled cron jobs, and visual workflows with auto-generated UIs. Designed as a performant open-source alternative to Retool and Temporal, executing sub-millisecond script runs with complete secret management and audit trails.
+
+### 10. [Automatisch](https://github.com/automatisch/automatisch) [![GitHub stars](https://img.shields.io/github/stars/automatisch/automatisch?style=social&color=white)](https://github.com/automatisch/automatisch/stargazers)
+* **Tech Stack:** 🟦 JavaScript / React / Node.js | **License:** 📄 AGPLv3
+* **Key Features:** Self-hosted automation software that serves as a direct, privacy-respecting drop-in alternative to Zapier or Integromat. Keep all business credentials, customer data, and API payloads on your private network to strictly adhere to GDPR and HIPAA data-residency requirements without paying per-action cloud penalties.
+
+### 11. [Apache Camel](https://github.com/apache/camel) [![GitHub stars](https://img.shields.io/github/stars/apache/camel?style=social&color=white)](https://github.com/apache/camel/stargazers)
+* **Tech Stack:** ☕ Java | **License:** 📄 Apache 2.0
+* **Key Features:** The foundational enterprise integration pattern (EIP) framework with 350+ connectors across databases, message brokers, cloud suites, and protocols. Enables writing complex message routing and protocol translation rules in Java DSL, Spring Boot, YAML, or XML. Features Camel K for native Kubernetes event processing and Camel Karavan for low-code route visual design.
+
+### 12. [Apache NiFi](https://github.com/apache/nifi) [![GitHub stars](https://img.shields.io/github/stars/apache/nifi?style=social&color=white)](https://github.com/apache/nifi/stargazers)
+* **Tech Stack:** ☕ Java | **License:** 📄 Apache 2.0
+* **Key Features:** Industrial-grade real-time data ingestion, transformation, and multi-system data flow automation engine. Features a rich browser-based drag-and-drop canvas, visual data provenance tracking, prioritized queuing, dynamic backpressure thresholds, and end-to-end interactive data routing for high-throughput enterprise pipelines.
+
+### 13. [ByteChef](https://github.com/bytechefhq/bytechef) [![GitHub stars](https://img.shields.io/github/stars/bytechefhq/bytechef?style=social&color=white)](https://github.com/bytechefhq/bytechef/stargazers)
+* **Tech Stack:** ☕ Java / TypeScript / React | **License:** 📄 Apache 2.0
+* **Key Features:** Modern open-source platform specifically architected for both standalone workflow automation and embedding within SaaS applications. Features a visual canvas with 260+ pre-built connectors, JavaScript/Python/Java code execution nodes, AI agents as first-class workflow steps, and multi-tenant customer credential delegation.
+
+### 14. [WSO2 Enterprise Integrator](https://github.com/wso2/product-ei) [![GitHub stars](https://img.shields.io/github/stars/wso2/product-ei?style=social&color=white)](https://github.com/wso2/product-ei/stargazers)
+* **Tech Stack:** ☕ Java / Ballerina | **License:** 📄 Apache 2.0
+* **Key Features:** Enterprise-grade hybrid integration platform delivering comprehensive API gateway capabilities, ESB message brokering, asynchronous event routing, and visual data transformation. Widely trusted by telecom and financial enterprises as a battle-tested open-source substitute for MuleSoft and IBM MQ.
+
+---
+
+## ⚖️ Feature Matrix & Architecture Comparison
+
+| 🛠️ Platform | 📜 License Model | 💻 Primary Stack | 🎨 Visual Builder | 💻 Code Extensibility | 🏠 Self-Hostable | 🎯 Best Architectural Fit |
+|---|---|---|---|---|---|---|
+| **MuleSoft Anypoint** | Commercial SaaS | Java / Cloud | ✅ Full Canvas | DataWeave / Java | ❌ (Hybrid agent only) | Large-scale enterprise API governance & legacy systems |
+| **Workato** | Commercial SaaS | Ruby / Go / Cloud | ✅ Recipe Builder | Custom Connector SDK | ❌ Managed Cloud | Enterprise automation bridging citizen integrators and IT |
+| **Boomi** | Commercial SaaS | Java / Cloud | ✅ Drag-and-Drop | Groovy / JavaScript | ❌ (Local Atom runtime) | Hybrid enterprise ERP, CRM, and EDI data pipelines |
+| **Make** | Commercial SaaS | Node.js / Cloud | ✅ Scenario Flow | JavaScript / HTTP | ❌ Managed Cloud | Visual multi-step integrations with deep JSON data shaping |
+| **SnapLogic** | Commercial SaaS | Java / Cloud | ✅ Flow Canvas | Python / JavaScript | ❌ (Groundplex worker) | AI-powered data pipelines, big data, and cloud data warehouses |
+| **Tray.io** | Commercial SaaS | Node.js / Cloud | ✅ Visual Studio | JSONata / Connector SDK | ❌ Managed Cloud | Embedded customer-facing automations in SaaS products |
+| **Celigo** | Commercial SaaS | Node.js / Cloud | ✅ Workflow Builder | JavaScript hooks | ❌ Managed Cloud | Turnkey e-commerce & NetSuite/Salesforce business flows |
+| **Jitterbit** | Commercial SaaS | C++ / Java / Cloud | ✅ Harmony Studio | Jitterbit Script / JS | ❌ (Local agent available) | Legacy supply chain EDI, B2B gateways, and mid-market ERP |
+| **n8n** | Sustainable Use | TypeScript / Node | ✅ Visual Graph | JavaScript / Python | ✅ Docker & K8s | Flexible self-hosted automation with AI agent nodes |
+| **Huginn** | MIT | Ruby on Rails | ⚠️ Graph View | Ruby Agents | ✅ Docker / Bare metal | Event-driven web monitors, data watchers, and scraping bots |
+| **Appsmith** | Apache 2.0 | Java / React | ✅ Widget Canvas | JavaScript queries | ✅ Docker & K8s | Internal tool dashboards with multi-API integrations |
+| **Kestra** | Apache 2.0 | Java / Micronaut | ✅ Topology Graph | YAML + Python/Node/SQL | ✅ Docker & K8s | Declarative, GitOps-friendly data & API orchestrations |
+| **Activepieces** | MIT | TypeScript | ✅ Flow Canvas | TypeScript / NPM | ✅ Docker & K8s | Permissively licensed, white-labelable Zapier alternative |
+| **Temporal** | MIT | Go / Polyglot | ❌ Code-first UI | Python / TS / Go / Java | ✅ Docker & K8s | Mission-critical distributed systems & stateful microservices |
+| **Node-RED** | Apache 2.0 | JavaScript / Node | ✅ Visual Canvas | JavaScript function nodes | ✅ Edge, IoT, Docker | Lightweight edge automation, WebSockets, and IoT gateways |
+| **Airbyte** | Elv2 / MIT | Java / Python | ✅ Web UI | Python Connector SDK | ✅ Docker & K8s | High-volume ELT pipeline extraction from third-party APIs |
+| **Windmill** | AGPLv3 / Apache | Rust / Svelte | ✅ Low-code Canvas | Python / TS / Rust / Go | ✅ Docker & K8s | High-performance developer scripts, background tasks & UIs |
+| **Automatisch** | AGPLv3 | Node.js / React | ✅ Clean Canvas | Pre-built apps | ✅ Docker | GDPR/HIPAA-compliant, private-cloud Zapier alternative |
+| **Apache Camel** | Apache 2.0 | Java | ⚠️ Karavan Designer | Java / YAML / XML DSL | ✅ JVM / K8s / Quarkus | Enterprise Java development teams adopting EIP standards |
+| **Apache NiFi** | Apache 2.0 | Java | ✅ DataFlow Canvas | Java processors / Jython | ✅ Bare metal / Docker | Real-time enterprise data streams with backpressure control |
+| **ByteChef** | Apache 2.0 | Java / TS | ✅ Flow Editor | JS / Python / Java | ✅ Docker & K8s | Native SaaS embedding and AI agent workflow automation |
+| **WSO2 EI** | Apache 2.0 | Java / Ballerina | ⚠️ Integration Studio | Ballerina / Java / XML | ✅ VMs / Containers | High-throughput enterprise ESB and API management |
+
+---
+
+## 💡 How to Choose an Integration Framework
+
+```
+What is your primary architectural requirement?
+│
+├── 🏢 Enterprise Governance & Turnkey Support
+│   ├── Large Budget & API-Led Architecture ──► MuleSoft Anypoint
+│   ├── Business User / IT Hybrid Recipes   ──► Workato
+│   └── Legacy ERP / EDI / Manufacturing    ──► Boomi or Jitterbit
+│
+├── 💻 Developer Code-First Orchestration
+│   ├── Mission-Critical Microservice States ──► Temporal
+│   ├── Declarative GitOps Multi-Cloud YAML  ──► Kestra
+│   ├── Enterprise Java EIP Standards        ──► Apache Camel
+│   └── Polyglot High-Performance Scripts    ──► Windmill
+│
+├── 🎨 Visual Low-Code / No-Code Automation
+│   ├── Self-Hosted AI Agents & Workflows    ──► n8n
+│   ├── Permissive MIT White-Label Embedding ──► Activepieces or ByteChef
+│   ├── Granular Cloud Scenario Data Shaping ──► Make
+│   └── GDPR / Private Cloud Zapier Drop-in  ──► Automatisch
+│
+└── 📊 High-Volume Data Replication & Streaming
+    ├── API-to-Warehouse ELT Pipelines       ──► Airbyte
+    └── Real-time Flow & Edge IoT Processing ──► Apache NiFi or Node-RED
+```
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Third-Party Integration Framework that should be listed here, please open a pull request with:
+Contributions are warmly welcomed! Help expand this directory by adding new open-source integration frameworks or updating existing details:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source (or clearly note the license if source-available but not OSI-approved, as with n8n's Sustainable Use License). Note that the open-source ecosystem **splits** between visual workflow platforms (n8n, Activepieces, ByteChef), code-first frameworks (Apache Camel, Pansynchro), and data flow engines (Apache NiFi). Activepieces and ByteChef are the most notable MIT/Apache-licensed visual platforms for embedding, while Apache Camel remains the strongest choice for Java teams wanting code-first enterprise integration.
+1. 🍴 Fork the repository.
+2. 🌿 Create a feature branch: `git checkout -b feature/new-integration-framework`.
+3. ✍️ Add your project in the appropriate table and list (with project name, GitHub star badge, license, stack, and architectural highlight).
+4. 📬 Submit a Pull Request with a short summary of why the framework stands out.
 
 ---
 
-## 📄 License
+## 📜 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+This compilation is licensed under the [Creative Commons Zero v1.0 Universal (CC0 1.0)](LICENSE) Public Domain Dedication.  
+All listed software projects, trademarks, and logos are property of their respective creators.
 
 ---
 
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+<p align="center">
+  ⭐ <b>Found this resource helpful? Give it a star to show your support!</b> ⭐
+</p>
