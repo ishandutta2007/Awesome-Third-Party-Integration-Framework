@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Third-Party-Integration-Framework/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Third-Party-Integration-Framework?style=social&color=white" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Third-Party-Integration-Framework/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Third-Party-Integration-Framework?style=social&color=white" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Third-Party-Integration-Framework/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Third-Party-Integration-Framework?style=social&color=white" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Third-Party-Integration-Framework/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg" alt="License: CC0 1.0" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
@@ -66,59 +66,59 @@ The open-source third-party integration landscape features high-power visual aut
 
 The projects below are ranked in **descending order by GitHub stargazers**:
 
-### 1. [n8n](https://github.com/n8n-io/n8n) [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)
+### 1. [n8n](https://github.com/n8n-io/n8n) [![GitHub_Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)
 * **Tech Stack:** 🟦 TypeScript / Node.js / Vue.js | **License:** 📄 Sustainable Use License (Source-Available)
 * **Key Features:** Fair-code visual workflow automation platform combining 400+ native integrations with custom JavaScript/Python execution nodes. Supports self-hosting via single-container Docker or scalable multi-worker Kubernetes clusters. Offers native LangChain / autonomous AI agent orchestrations, sub-workflow execution, visual step-by-step state inspection, and robust webhook listeners.
 
-### 2. [Huginn](https://github.com/huginn/huginn) [![GitHub stars](https://img.shields.io/github/stars/huginn/huginn?style=social&color=white)](https://github.com/huginn/huginn/stargazers)
+### 2. [Huginn](https://github.com/huginn/huginn) [![GitHub_Stars](https://img.shields.io/github/stars/huginn/huginn?style=social&color=white)](https://github.com/huginn/huginn/stargazers)
 * **Tech Stack:** 💎 Ruby on Rails / MySQL / PostgreSQL | **License:** 📄 MIT
 * **Key Features:** A battle-tested open-source system for building automated event-driven agents that read the web, watch for events, and perform API actions on your behalf. Known as a self-hosted, hackable version of Yahoo Pipes or IFTTT, with built-in agent scheduling, deduplication, website scraping, and JSON transformation agents.
 
-### 3. [Appsmith](https://github.com/appsmithorg/appsmith) [![GitHub stars](https://img.shields.io/github/stars/appsmithorg/appsmith?style=social&color=white)](https://github.com/appsmithorg/appsmith/stargazers)
+### 3. [Appsmith](https://github.com/appsmithorg/appsmith) [![GitHub_Stars](https://img.shields.io/github/stars/appsmithorg/appsmith?style=social&color=white)](https://github.com/appsmithorg/appsmith/stargazers)
 * **Tech Stack:** ☕ Java / TypeScript / React | **License:** 📄 Apache 2.0
 * **Key Features:** Open-source platform for rapidly connecting to databases, SaaS APIs, and third-party webhooks to build visual integration frontends, internal tools, and operational workflows. Comes with 50+ pre-built connectors (PostgreSQL, MongoDB, REST APIs, GraphQL, Snowflake) and complete Git-based version control for developer collaboration.
 
-### 4. [Kestra](https://github.com/kestra-io/kestra) [![GitHub stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers)
+### 4. [Kestra](https://github.com/kestra-io/kestra) [![GitHub_Stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers)
 * **Tech Stack:** ☕ Java / Micronaut / Vue.js | **License:** 📄 Apache 2.0
 * **Key Features:** Universal event-driven declarative orchestrator and integration platform. Define end-to-end multi-system workflows in clean YAML with embedded Python, Node.js, Shell, or SQL code. Features 600+ plugins for cloud providers, analytics databases, and microservices with visual topology graphs, real-time live logs, and automated retry mechanisms.
 
-### 5. [Activepieces](https://github.com/activepieces/activepieces) [![GitHub stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers)
+### 5. [Activepieces](https://github.com/activepieces/activepieces) [![GitHub_Stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers)
 * **Tech Stack:** 🟦 TypeScript / Angular / Node.js | **License:** 📄 MIT
 * **Key Features:** Permissively licensed, 100% open-source alternative to Zapier and n8n with 350+ pre-built integration "pieces" and MCP (Model Context Protocol) servers for AI agents. Designed with an ultra-clean modular architecture that makes writing new TypeScript pieces trivial. Highly popular for embedding white-labeled automations into commercial SaaS products without legal restrictions.
 
-### 6. [Temporal](https://github.com/temporalio/temporal) [![GitHub stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers)
+### 6. [Temporal](https://github.com/temporalio/temporal) [![GitHub_Stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers)
 * **Tech Stack:** 🐹 Go / TypeScript / Java / Python / C# | **License:** 📄 MIT
 * **Key Features:** Industry-leading durable workflow orchestration engine for complex distributed systems and multi-API integrations. Handles intermittent network timeouts, asynchronous human approvals, state retries, and distributed transaction rollbacks (Saga pattern) entirely through reliable code, eliminating brittle custom retry logic.
 
-### 7. [Node-RED](https://github.com/node-red/node-red) [![GitHub stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)
+### 7. [Node-RED](https://github.com/node-red/node-red) [![GitHub_Stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)
 * **Tech Stack:** 🟩 JavaScript / Node.js | **License:** 📄 Apache 2.0
 * **Key Features:** Low-code, flow-based visual programming tool for wiring together APIs, hardware devices, and cloud web services. Runs everywhere from low-cost edge hardware (Raspberry Pi) to industrial cloud gateways. Features a vibrant community repository of over 4,000 community nodes and plugins for any protocol (MQTT, WebSockets, TCP, HTTP).
 
-### 8. [Airbyte](https://github.com/airbytehq/airbyte) [![GitHub stars](https://img.shields.io/github/stars/airbytehq/airbyte?style=social&color=white)](https://github.com/airbytehq/airbyte/stargazers)
+### 8. [Airbyte](https://github.com/airbytehq/airbyte) [![GitHub_Stars](https://img.shields.io/github/stars/airbytehq/airbyte?style=social&color=white)](https://github.com/airbytehq/airbyte/stargazers)
 * **Tech Stack:** ☕ Java / Python / TypeScript | **License:** 📄 Elv2 (Core code MIT-derived)
 * **Key Features:** The standard open-source data movement engine for synchronizing third-party application APIs to databases, data warehouses, and AI vector stores. Features a catalog of 300+ pre-built API connectors (Salesforce, Stripe, Zendesk, GitHub) and a Connector Builder (no-code UI and Python SDK) that enables building custom API connectors in minutes.
 
-### 9. [Windmill](https://github.com/windmill-labs/windmill) [![GitHub stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers)
+### 9. [Windmill](https://github.com/windmill-labs/windmill) [![GitHub_Stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers)
 * **Tech Stack:** 🦀 Rust / Svelte / TypeScript / Python | **License:** 📄 AGPLv3 / Apache 2.0
 * **Key Features:** Ultra-fast, code-first developer platform that converts Python, TypeScript, Go, Bash, or SQL scripts into production-ready endpoints, scheduled cron jobs, and visual workflows with auto-generated UIs. Designed as a performant open-source alternative to Retool and Temporal, executing sub-millisecond script runs with complete secret management and audit trails.
 
-### 10. [Automatisch](https://github.com/automatisch/automatisch) [![GitHub stars](https://img.shields.io/github/stars/automatisch/automatisch?style=social&color=white)](https://github.com/automatisch/automatisch/stargazers)
+### 10. [Automatisch](https://github.com/automatisch/automatisch) [![GitHub_Stars](https://img.shields.io/github/stars/automatisch/automatisch?style=social&color=white)](https://github.com/automatisch/automatisch/stargazers)
 * **Tech Stack:** 🟦 JavaScript / React / Node.js | **License:** 📄 AGPLv3
 * **Key Features:** Self-hosted automation software that serves as a direct, privacy-respecting drop-in alternative to Zapier or Integromat. Keep all business credentials, customer data, and API payloads on your private network to strictly adhere to GDPR and HIPAA data-residency requirements without paying per-action cloud penalties.
 
-### 11. [Apache Camel](https://github.com/apache/camel) [![GitHub stars](https://img.shields.io/github/stars/apache/camel?style=social&color=white)](https://github.com/apache/camel/stargazers)
+### 11. [Apache Camel](https://github.com/apache/camel) [![GitHub_Stars](https://img.shields.io/github/stars/apache/camel?style=social&color=white)](https://github.com/apache/camel/stargazers)
 * **Tech Stack:** ☕ Java | **License:** 📄 Apache 2.0
 * **Key Features:** The foundational enterprise integration pattern (EIP) framework with 350+ connectors across databases, message brokers, cloud suites, and protocols. Enables writing complex message routing and protocol translation rules in Java DSL, Spring Boot, YAML, or XML. Features Camel K for native Kubernetes event processing and Camel Karavan for low-code route visual design.
 
-### 12. [Apache NiFi](https://github.com/apache/nifi) [![GitHub stars](https://img.shields.io/github/stars/apache/nifi?style=social&color=white)](https://github.com/apache/nifi/stargazers)
+### 12. [Apache NiFi](https://github.com/apache/nifi) [![GitHub_Stars](https://img.shields.io/github/stars/apache/nifi?style=social&color=white)](https://github.com/apache/nifi/stargazers)
 * **Tech Stack:** ☕ Java | **License:** 📄 Apache 2.0
 * **Key Features:** Industrial-grade real-time data ingestion, transformation, and multi-system data flow automation engine. Features a rich browser-based drag-and-drop canvas, visual data provenance tracking, prioritized queuing, dynamic backpressure thresholds, and end-to-end interactive data routing for high-throughput enterprise pipelines.
 
-### 13. [ByteChef](https://github.com/bytechefhq/bytechef) [![GitHub stars](https://img.shields.io/github/stars/bytechefhq/bytechef?style=social&color=white)](https://github.com/bytechefhq/bytechef/stargazers)
+### 13. [ByteChef](https://github.com/bytechefhq/bytechef) [![GitHub_Stars](https://img.shields.io/github/stars/bytechefhq/bytechef?style=social&color=white)](https://github.com/bytechefhq/bytechef/stargazers)
 * **Tech Stack:** ☕ Java / TypeScript / React | **License:** 📄 Apache 2.0
 * **Key Features:** Modern open-source platform specifically architected for both standalone workflow automation and embedding within SaaS applications. Features a visual canvas with 260+ pre-built connectors, JavaScript/Python/Java code execution nodes, AI agents as first-class workflow steps, and multi-tenant customer credential delegation.
 
-### 14. [WSO2 Enterprise Integrator](https://github.com/wso2/product-ei) [![GitHub stars](https://img.shields.io/github/stars/wso2/product-ei?style=social&color=white)](https://github.com/wso2/product-ei/stargazers)
+### 14. [WSO2 Enterprise Integrator](https://github.com/wso2/product-ei) [![GitHub_Stars](https://img.shields.io/github/stars/wso2/product-ei?style=social&color=white)](https://github.com/wso2/product-ei/stargazers)
 * **Tech Stack:** ☕ Java / Ballerina | **License:** 📄 Apache 2.0
 * **Key Features:** Enterprise-grade hybrid integration platform delivering comprehensive API gateway capabilities, ESB message brokering, asynchronous event routing, and visual data transformation. Widely trusted by telecom and financial enterprises as a battle-tested open-source substitute for MuleSoft and IBM MQ.
 
@@ -203,7 +203,7 @@ Contributions are warmly welcomed! Help expand this directory by adding new open
 
 1. 🍴 Fork the repository.
 2. 🌿 Create a feature branch: `git checkout -b feature/new-integration-framework`.
-3. ✍️ Add your project in the appropriate table and list (with project name, GitHub star badge, license, stack, and architectural highlight).
+3. ✍️ Add your project in the appropriate table and list (with project name, GitHub Stars_Badge, license, stack, and architectural highlight).
 4. 📬 Submit a Pull Request with a short summary of why the framework stands out.
 
 ---
